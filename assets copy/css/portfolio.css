@@ -34,3 +34,38 @@
     width: fit-content;
     min-width: 500px;
   }
+
+
+  @media only screen and (max-width: 768px) {
+
+  }
+
+
+  @media only screen and (max-width: 640px) {
+    .grid-container{
+      grid-template-columns: 100%;
+    }
+    /* div.containerimg{
+      width: 100%;
+      height: auto;
+    } */
+    img{
+      width: 100%;
+      height: auto;
+    }
+    #aboutMe{
+      text-indent: 0;
+    }
+    .containerh2 {
+    position: absolute;
+    top: 14em; 
+    background-color: black;
+    left: 0; 
+    width: 100%;
+    text-align: center;
+    }
+    h2{
+      margin:0;
+
+    } 
+  }

@@ -151,3 +151,42 @@ h1{
     bottom: 0;
     font-size: small;
 }
+
+
+/* Use three `@media screen` tags, each with one of these `max-width`s: `980px`, `768px` and `640px`. */
+
+
+
+
+
+
+
+  @media only screen and (max-width: 980px) {
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+  }
+
+
+  @media only screen and (max-width: 640px) {
+    header{
+        position: static;
+    }
+    a.myName{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    ul{
+        width: fit-content;
+        position: absolute;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+  }
