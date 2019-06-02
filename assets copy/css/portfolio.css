@@ -43,10 +43,6 @@
     .grid-container{
       grid-template-columns: 100%;
     }
-    /* div.containerimg{
-      width: 100%;
-      height: auto;
-    } */
     img{
       width: 100%;
       height: auto;
